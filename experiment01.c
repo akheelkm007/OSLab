@@ -59,6 +59,12 @@ void forking() {
 }
 
 
+//Kill a process
+void killProcess() {
+	int processId = 4742;
+	int returnValForKill = kill(processId, 1);
+	printf("returnValForKill : %d\n", returnValForKill);
+}
 
 
 
