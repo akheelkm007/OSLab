@@ -5,7 +5,7 @@
 void main(){
     struct stat status;
     FILE *fp;
-    stat("/home/mec/akheel/file-type.c",&status);
+    stat("/home/mec/akheel",&status);
 
     if (status.st_mode & S_IFDIR)
          printf("It is directory.\n");
